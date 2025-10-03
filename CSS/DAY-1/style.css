@@ -1,0 +1,82 @@
+/* h3 , H2 {
+
+
+background-color: tomato;
+
+} */
+
+
+/* ye hamare hote hain class selector jo select hote hain (.) se */
+/* .line1{
+
+    background-color: darkorange;
+}
+
+.line2{
+
+    background-color: cornflowerblue;
+} */
+
+/* 
+ye hote hain hamare id selecto jo select karte hai (#) ke basis par
+#line1 ,#para , #line3 {
+
+    background-color: cornflowerblue;
+} */
+
+
+.codingsexpert{
+
+    color:#6a5acd
+
+
+}
+
+/* 
+H2{
+
+    color: deeppink;
+}
+
+p{
+
+
+
+   color:hsla(24, 86%, 0% );
+
+   background-color: #6a5acd
+} */
+/* 
+
+
+
+ /* H2{
+    font-size: 16PX;
+} 
+
+
+h3{
+
+font-size: 2rem;
+
+} */
+
+
+h2{
+
+    font-size: 154%;
+    /* font-family: Times, 'Times New Roman', serif; */
+
+    font-weight: 900;
+    /* font-style: italic; */
+    font-family: "Merriweather", serif;
+
+
+
+}
+
+
+h3{
+
+    font-size: 2rem;
+}

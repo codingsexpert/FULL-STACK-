@@ -1,0 +1,46 @@
+.container{
+
+height: 400px;
+width: 600px;
+background-color: rgb(19, 19, 18);
+display: grid;
+grid-template-columns: repeat(3,1fr);
+/* grid-template-rows: 100px 200px 200px 100px; */
+
+grid-template-rows: 1fr 2fr 2fr 1fr;
+
+border: 3px solid orangered;
+gap: 10px;
+box-sizing: border-box;
+
+
+} 
+.header{
+    background-color: yellow;
+    grid-column: 1/4;
+
+
+
+
+
+}
+.sidebar{
+    background-color: green;
+    grid-row: 2/4;
+}
+.content1{
+    background-color: rgb(91, 161, 236);
+    grid-column: 2/4;
+}
+.content2{
+    background-color: orangered;
+}
+
+.content3{
+    background-color: aqua;
+}
+
+.footer{
+    background-color: yellow;
+    grid-column: 1/4;
+}

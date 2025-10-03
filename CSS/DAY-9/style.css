@@ -1,0 +1,59 @@
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(95, 144, 235);
+    transition-property:all;
+    /* transition-duration: 2s; */
+    /* transition-delay: 3s; */
+    transition-timing-function: linear;
+    font-size: 40px;
+    /* animation-iteration-count: infinite; */
+animation-name: moving;
+animation-timing-function: linear;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+   
+    
+    
+
+}
+
+body{
+
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+   
+
+
+}
+.container:hover{
+
+    background-color: yellow;
+    cursor: pointer;
+    /* width: 300px;
+    height: 300px; */
+    /* transform: rotate(30deg); */
+    /* transform: rotateY(80deg); */
+    /* transform: skewY(50deg); */
+    /* transform: translate(50px , 50px); */
+    /* transform: scale(2); */
+
+    /* transform: translate3d(30px,30px,30px); */
+
+    /* transform: rotate(360deg); */
+
+}
+ 
+@keyframes moving {
+
+    from{
+        transform: rotate(0deg); translate: 200px; 
+    }
+    
+    to{
+        transform: rotate(360deg); translate: 200px;
+    }
+}

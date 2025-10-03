@@ -1,0 +1,16 @@
+.box{
+
+    height: 300px;
+    width: 300px;
+    background-color: orangered;
+
+    box-shadow: 10px 10px 100px 10px black;
+
+  
+}
+
+.box:hover{
+
+    background-color: greenyellow;
+    font-size: 30px;
+}
